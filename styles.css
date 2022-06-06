@@ -1,4 +1,4 @@
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -48,9 +48,6 @@ p {
 	padding: 0;
 	background-color: #C3CFD9;
 	overflow: hidden;
-	/* position: -webkit-sticky; */
-	/* position: sticky; */
-	/* top: 0; */
 }
 
 #header-nav-bar > ul > li {
@@ -74,4 +71,108 @@ p {
 }
 #header-nav-bar > ul > li > a:visited {
 	background-color: #C3CFD9;
+} */
+
+
+/* Menu Styles */
+.navbar {
+  font-family: "Source Serif 4", sans-serif !important;
+  height: 10em;
+}
+
+.navbar-brand > img {
+  max-width: 10em !important;
+  height: auto !important;
+}
+
+.bg-dark {
+  background-color: #A8AEBA !important;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #A8AEBA;
+  height: 10em;
+  font-family: "Source Serif 4", sans-serif;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.footer > h5 {
+  text-align: center;
+}
+
+.contact-info > p {
+  float: left;
+  padding: 1em;
+  vertical-align: middle;
+}
+
+.contact-info > p > i {
+  padding-right: 1em;
+}
+
+/* Home Page Styles */
+.home-images {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.home-images > .image > img {
+  height: 30em;
+  /* FIXME change height to be responsive to size, reduce em when smaller */
+  width: auto;
+  float: left;
+  vertical-align: middle;
+}
+
+.home-text {
+  font-family: "Source Serif 4", sans-serif;
+  padding: 0 1.5em 1.5em 1.5em;
+  text-align: center;
+}
+
+.home-text > h2 {
+  padding: 1em;
+}
+
+/* About Page Styles */
+.about-title {
+  font-family: "Source Serif 4", sans-serif;
+  padding: 20px 0px 0px 30px;
+}
+
+.bio-image > img {
+  max-width: 100%;
+  height: 400px;
+  float: left;
+  margin: 30px;
+}
+
+.bio-text {
+  margin: 50px;
+  font-family: "Source Serif 4", sans-serif;
+}
+
+/* Portfolio Photo Grid Styles */
+
+.masonry {
+  column-count: 4;
+  column-gap: .5em;
+  margin-top: .5em;
+  align-items: center;
+}
+
+.masonry-item {
+  display: inline-block;
+  margin: 0 0 .5em;
+  width: 100%;
+}
+
+.masonry-item > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
